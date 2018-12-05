@@ -1,12 +1,12 @@
 """
-This module defines prime numbers and returns a list of primes
+This module defines prime numbers and returns a list of primes!
 
 Author: Travis Anderson, tander29
 """
 
 
 def is_prime(m):
-    """Return bool if number is Prime """
+    """Return bool if number is Prime! """
     prime = True
     if m > 2:
         for i in range(2, m):
@@ -19,7 +19,7 @@ def is_prime(m):
 
 
 def primes(n):
-    """Return list of primes """
+    """Return list of primes !"""
     prime_list = []
     for i in range(n):
         if is_prime(i) and i > 1:

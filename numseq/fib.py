@@ -1,13 +1,13 @@
 """
 This module has a single function called fib that is short for fibonacci
-what do docstrings normally say?
+what do docstrings normally say?!
 
 author Travis Anderson, tander29
 """
 
 
 def fib(n):
-    """Returns the nth number in the fib sequence"""
+    """Returns the nth number in the fib sequence!"""
     if n < 2:
         return n
     n += 1
